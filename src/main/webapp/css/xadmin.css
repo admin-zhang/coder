@@ -491,7 +491,7 @@ table th, table td {
     font-size: 12px;
 }
 .x-admin-sm  .layui-breadcrumb>*{
-   font-size: 12px; 
+   font-size: 16px;
 }
 .x-admin-sm  .layui-btn,.x-admin-sm .layui-btn-xs,.x-admin-sm .layui-btn-sm{
     font-size: 12px;

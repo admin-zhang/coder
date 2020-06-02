@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>逸彩人事管理系统</title>
+    <title>XX管理系统</title>
     <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport"
@@ -16,6 +16,7 @@
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
     <link rel="stylesheet" href="./css/font.css">
     <link rel="stylesheet" href="./css/xadmin.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <script src="./lib/layui/layui.js" charset="utf-8"></script>
     <script type="text/javascript" src="./js/xadmin.js"></script>
     <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
@@ -136,7 +137,40 @@
         </div>
         <div class="layui-tab-content">
             <div class="layui-tab-item layui-show">
-                <iframe src='login.jsp' frameborder="0" scrolling="yes" class="x-iframe"></iframe>
+                <iframe src='./images/loginbg.png' frameborder="0" scrolling="yes" class="x-iframe"></iframe>
+            </div>
+        </div>
+        <div class="reg-foot">
+            <div class="layui-row" style="height: 45%;">
+                <div class="layui-col-xs5">
+                    <div class="grid-demo grid-demo-bg1" style="float: left;margin-left: 62px;margin-top: 23px;font-size: 16px;"></div>
+                </div>
+                <div class="layui-col-xs2">
+                    <div class="grid-demo grid-demo-bg1" style="margin-left: 62px;margin-top: 23px;font-size: 16px;">© 2020 <a href="#">XXX</a> MIT license</div>
+                </div>
+                <div class="layui-col-xs5">
+                    <div class="grid-demo" style="margin-left: 62px;margin-top: 23px;font-size: 16px;"></div>
+                </div>
+            </div>
+            <div class="layui-row" style="height: 45%;">
+                <div class="layui-col-xs3">
+                    <div class="grid-demo grid-demo-bg1" style="float: left;margin-left: 62px;margin-top: 23px;font-size: 16px;"></div>
+                </div>
+                <div class="layui-col-xs5">
+                    <div class="grid-demo grid-demo-bg1" style="margin-left: 185px;margin-top: 5px;">
+                <span class="layui-breadcrumb" lay-separator="|" style="visibility: visible;">
+                  <a href="">关于我们</a>
+                  <a href="">联系我们</a>
+                  <a href="">用户协议</a>
+                  <a href="">隐私政策</a>
+                  <a href="">帮助中心</a>
+                </span>
+
+                    </div>
+                </div>
+                <div class="layui-col-xs3">
+                    <div class="grid-demo" style="margin-left: 62px;margin-top: 23px;font-size: 16px;"></div>
+                </div>
             </div>
         </div>
         <div id="tab_show"></div>

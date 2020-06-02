@@ -29,7 +29,7 @@
 </head>
 <body class="login-bg">
 <div class="reg-top">
-    <h1>占位</h1>
+    <img src="./images/l.jpg">
 </div>
 
 <div class="login layui-anim layui-anim-up">
@@ -112,7 +112,37 @@
 </div>
 
 <div class="reg-foot">
-    <h1>占位</h1>
+    <div class="layui-row" style="height: 45%;">
+        <div class="layui-col-xs5">
+            <div class="grid-demo grid-demo-bg1" style="float: left;margin-left: 62px;margin-top: 23px;font-size: 16px;"></div>
+        </div>
+        <div class="layui-col-xs2">
+            <div class="grid-demo grid-demo-bg1" style="margin-left: 62px;margin-top: 23px;font-size: 16px;">© 2020 <a href="#">XXX</a> MIT license</div>
+        </div>
+        <div class="layui-col-xs5">
+            <div class="grid-demo" style="margin-left: 62px;margin-top: 23px;font-size: 16px;"></div>
+        </div>
+    </div>
+    <div class="layui-row" style="height: 45%;">
+        <div class="layui-col-xs4">
+            <div class="grid-demo grid-demo-bg1" style="float: left;margin-left: 62px;margin-top: 23px;font-size: 16px;"></div>
+        </div>
+        <div class="layui-col-xs4">
+            <div class="grid-demo grid-demo-bg1" style="margin-left: 100px;margin-top: 5px;">
+                <span class="layui-breadcrumb" lay-separator="|" style="visibility: visible;">
+                  <a href="">关于我们</a>
+                  <a href="">联系我们</a>
+                  <a href="">用户协议</a>
+                  <a href="">隐私政策</a>
+                  <a href="">帮助中心</a>
+                </span>
+
+            </div>
+        </div>
+        <div class="layui-col-xs4">
+            <div class="grid-demo" style="margin-left: 62px;margin-top: 23px;font-size: 16px;"></div>
+        </div>
+    </div>
 </div>
 <script>
     //一般直接写在一个js文件中

@@ -19,8 +19,6 @@ a
 1src/main/webapp/dist/sliderVerify/sliderVerify.js,0\4\04832d6cb108e9bec5e5e1aee19e60b287c1c457
 R
 "src/main/webapp/fonts/iconfont.svg,9\d\9d37dd7fd083fda27f0155cabedeb8a41847059c
-I
-src/main/webapp/demo.json,7\0\70665d13dfea169db44d7cc178aa884e09653c04
 Q
 !src/main/webapp/employee-list.jsp,b\3\b393752590f87e5ad3ee10b37398dd5b99a280fd
 H
@@ -33,3 +31,14 @@ I
 src/main/webapp/index.jsp,8\e\8e6d3b70c9f5b02570779b0441540d45eceb0ded
 O
 src/main/webapp/WEB-INF/web.xml,2\e\2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+W
+'src/main/webapp/lib/layui/css/layui.css,8\6\86e74a91364a339944277dcf9b8efd30eb701296
+P
+ src/main/webapp/css/register.css,7\6\764ba0e6a283f7ec3f36581b2a5bf268e0469157
+L
+src/main/webapp/register.jsp,b\d\bde35d3876092f82f8efadc1a6675aaf6bd96946
+N
+src/main/webapp/data/demo.json,0\a\0a331f0db3f73b79be6ce4b5d900db74d2d1e634

@@ -10,7 +10,7 @@
 <html class="x-admin-sm">
 <head>
     <meta charset="UTF-8">
-    <title>逸彩人事管理系统</title>
+    <title>XX管理系统</title>
     <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport"
@@ -150,7 +150,7 @@
                     ,success: function(layero){
                         var btn = layero.find('.layui-layer-btn');
                         btn.find('.layui-layer-btn0').attr({
-                            href: 'http://www.layui.com/'
+                            href: 'register.jsp'
                             ,target: '_blank'
                         });
                     }

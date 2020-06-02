@@ -42,13 +42,18 @@
     </div>
 </script>
 
+<script type="text/html" id="switchTpl">
+    <!-- 这里的 checked 的状态只是演示 -->
+    <input type="checkbox" name="sex" value="{{d.id}}" lay-skin="switch" lay-text="女|男" lay-filter="sexDemo" {{ d.id == 10003 ? 'checked' : '' }}>
+</script>
+
 <script type="text/html" id="barDemo">
     <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
     <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
 </script>
 
 
-<script src="static/lib/layui/layui.js" charset="utf-8"></script>
+<script src="./lib/layui/layui.js" charset="utf-8"></script>
 <!-- 注意：如果你直接复制所有代码到本地，上述js路径需要改成你本地的 -->
 
 <script>
@@ -57,7 +62,7 @@
 
         table.render({
             elem: '#test'
-            ,url:'demo.json'
+            ,url:'/data/demo.json'
             ,toolbar: '#toolbarDemo' //开启头部工具栏，并为其绑定左侧模板
             ,defaultToolbar: ['filter', 'exports', 'print', { //自定义头部工具栏右侧图标。如无需自定义，去除该参数即可
                 title: '提示'
@@ -65,23 +70,24 @@
                 ,icon: 'layui-icon-tips'
             }]
             ,title: '用户数据表'
+            , height: 'full-80'
+            ,page: true
             ,cols: [[
                 {type: 'checkbox', fixed: 'left'}
                 ,{field:'id', title:'ID', width:80, fixed: 'left', unresize: true, sort: true}
                 ,{field:'username', title:'用户名', width:120, edit: 'text'}
-                ,{field:'email', title:'邮箱', width:150, edit: 'text', templet: function(res){
+                ,{field:'email', title:'邮箱', width:198, edit: 'text', templet: function(res){
                         return '<em>'+ res.email +'</em>'
                     }}
-                ,{field:'sex', title:'性别', width:80, edit: 'text', sort: true}
+                ,{field:'sex', title:'性别', width:80,  templet: '#switchTpl', unresize: true}
                 ,{field:'city', title:'城市', width:100}
-                ,{field:'sign', title:'签名'}
+                ,{field:'sign', title:'签名', width: 472}
                 ,{field:'experience', title:'积分', width:80, sort: true}
                 ,{field:'ip', title:'IP', width:120}
                 ,{field:'logins', title:'登入次数', width:100, sort: true}
                 ,{field:'joinTime', title:'加入时间', width:120}
-                ,{fixed: 'right', title:'操作', toolbar: '#barDemo', width:150}
+                ,{ title:'操作', toolbar: '#barDemo', width:120}
             ]]
-            ,page: true
         });
 
         //头工具栏事件
@@ -105,6 +111,11 @@
                     layer.alert('这是工具栏右侧自定义的一个图标按钮');
                     break;
             };
+        });
+
+        //监听性别操作
+        form.on('switch(sexDemo)', function(obj){
+            layer.tips(this.value + ' ' + this.name + '：'+ obj.elem.checked, obj.othis);
         });
 
         //监听行工具事件

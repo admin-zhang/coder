@@ -11,6 +11,6 @@
     <title>XX管理系统</title>
 </head>
 <body>
-    <jsp:forward page="./register.jsp"></jsp:forward>
+    <jsp:forward page="./main.jsp"></jsp:forward>
 </body>
 </html>

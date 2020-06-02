@@ -1,6 +1,6 @@
 
-cWeb:DoctypePresenceCheck	":Insert a <!DOCTYPE> declaration to before this <html> tag.(œ÷Ãûÿÿÿÿ
-:	Web:S5256#"%Add "<th>" headers to this "<table>".(İñŠÈ
-Z	Web:S5254	"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ
-HWeb:TableWithoutCaptionCheck#" Add a description to this table.(İñŠÈ
 HWeb:BoldAndItalicTagsCheck"Replace this <i> tag by <em>.(ëÿƒãÿÿÿÿÿ
+Z	Web:S5254	"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ
+cWeb:DoctypePresenceCheck	":Insert a <!DOCTYPE> declaration to before this <html> tag.(œ÷Ãûÿÿÿÿ
+HWeb:TableWithoutCaptionCheck#" Add a description to this table.(İñŠÈ
+:	Web:S5256#"%Add "<th>" headers to this "<table>".(İñŠÈ
