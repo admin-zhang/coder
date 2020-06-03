@@ -1,18 +1,18 @@
 
-7javascript:S1116"Unnecessary semicolon.(Ú‚Â¸øÿÿÿÿ
-fjavascript:S905"FExpected an assignment or function call and instead saw an expression.(Ú‚Â¸øÿÿÿÿ
 Ujavascript:S1481"4Remove the declaration of the unused 'doc' variable.(±Â”±üÿÿÿÿ
-Rjavascript:S1854"1Remove this useless assignment to variable "doc".(±Â”±üÿÿÿÿ
-7javascript:S1116*"Unnecessary semicolon.(ôŸŽìúÿÿÿÿ
-9javascript:S28147"'id' is already defined.(÷³¶Èÿÿÿÿÿ
-<javascript:S2814N"'title' is already defined.(¢´²½þÿÿÿÿ
-7javascript:S1116O"Unnecessary semicolon.(ôŸŽìúÿÿÿÿ
 :javascript:S2814Q"'url' is already defined.(ûžÛÑþÿÿÿÿ
 7javascript:S1116R"Unnecessary semicolon.(ôŸŽìúÿÿÿÿ
 8javascript:S2814T"'w' is already defined.(ÜóØÍûÿÿÿÿ
-7javascript:S1116U"Unnecessary semicolon.(ôŸŽìúÿÿÿÿ
-8javascript:S2814W"'h' is already defined.(´š©åÿÿÿÿÿ
-7javascript:S1116X"Unnecessary semicolon.(ôŸŽìúÿÿÿÿ
-Rjavascript:S1481´"5Remove the declaration of the unused 'left' variable.(¡¾ÑÏ
 Ojavascript:S1854´"2Remove this useless assignment to variable "left".(¡¾ÑÏ
+Rjavascript:S1854"1Remove this useless assignment to variable "doc".(±Â”±üÿÿÿÿ
+fjavascript:S905"FExpected an assignment or function call and instead saw an expression.(Ú‚Â¸øÿÿÿÿ
+7javascript:S1116U"Unnecessary semicolon.(ôŸŽìúÿÿÿÿ
+7javascript:S1116"Unnecessary semicolon.(Ú‚Â¸øÿÿÿÿ
 xjavascript:S2703É"[Add the "let", "const" or "var" keyword to this declaration of "layer" to make it explicit.(ýëý
+9javascript:S28147"'id' is already defined.(÷³¶Èÿÿÿÿÿ
+<javascript:S2814N"'title' is already defined.(¢´²½þÿÿÿÿ
+8javascript:S2814W"'h' is already defined.(´š©åÿÿÿÿÿ
+7javascript:S1116*"Unnecessary semicolon.(ôŸŽìúÿÿÿÿ
+7javascript:S1116X"Unnecessary semicolon.(ôŸŽìúÿÿÿÿ
+7javascript:S1116O"Unnecessary semicolon.(ôŸŽìúÿÿÿÿ
+Rjavascript:S1481´"5Remove the declaration of the unused 'left' variable.(¡¾ÑÏ

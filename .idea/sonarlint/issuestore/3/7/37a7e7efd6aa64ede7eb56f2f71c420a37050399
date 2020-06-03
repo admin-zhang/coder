@@ -1,21 +1,21 @@
 
-HWeb:BoldAndItalicTagsCheck%"Replace this <i> tag by <em>.(±Û§ˆúÿÿÿÿ
-HWeb:BoldAndItalicTagsCheckC"Replace this <i> tag by <em>.(¯Ò­ûÿÿÿÿ
-CWeb:BoldAndItalicTagsCheckV"Replace this <i> tag by <em>.(„¾
-HWeb:BoldAndItalicTagsCheckX"Replace this <i> tag by <em>.(¯Ò­ûÿÿÿÿ
-HWeb:BoldAndItalicTagsCheckL"Replace this <i> tag by <em>.(¿›şïøÿÿÿÿ
-HWeb:BoldAndItalicTagsCheckj"Replace this <i> tag by <em>.(úãª¶ıÿÿÿÿ
-IWeb:AvoidCommentedOutCodeCheckx"Remove this commented out code.(İğÉÏ
-HWeb:BoldAndItalicTagsChecka"Replace this <i> tag by <em>.(¿›şïøÿÿÿÿ
+HWeb:BoldAndItalicTagsCheck&"Replace this <i> tag by <em>.(±Û§ˆúÿÿÿÿ
+HWeb:BoldAndItalicTagsCheckk"Replace this <i> tag by <em>.(úãª¶ıÿÿÿÿ
+YWeb:FrameWithoutTitleCheckŒ"-Add a "title" attribute to this <iframe> tag.(ÅòÏŠÿÿÿÿÿ
 cWeb:DoctypePresenceCheck	":Insert a <!DOCTYPE> declaration to before this <html> tag.(œ÷Ãûÿÿÿÿ
-CWeb:BoldAndItalicTagsCheckA"Replace this <i> tag by <em>.(É–†
-HWeb:BoldAndItalicTagsCheckl"Replace this <i> tag by <em>.(¯Ò­ûÿÿÿÿ
-H	Web:S1827‹"-Remove this deprecated "scrolling" attribute.(©è·÷ûÿÿÿÿ
-HWeb:BoldAndItalicTagsCheck\"Replace this <i> tag by <em>.(¿›şïøÿÿÿÿ
-HWeb:BoldAndItalicTagsCheckG"Replace this <i> tag by <em>.(¿›şïøÿÿÿÿ
-J	Web:S1827‹"/Remove this deprecated "frameborder" attribute.(©è·÷ûÿÿÿÿ
-HWeb:BoldAndItalicTagsCheckp"Replace this <i> tag by <em>.(¿›şïøÿÿÿÿ
+HWeb:BoldAndItalicTagsCheckb"Replace this <i> tag by <em>.(¿›şïøÿÿÿÿ
+J	Web:S1827Œ"/Remove this deprecated "frameborder" attribute.(ÅòÏŠÿÿÿÿÿ
 Z	Web:S5254	"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷Ãûÿÿÿÿ
-HWeb:BoldAndItalicTagsCheckQ"Replace this <i> tag by <em>.(¿›şïøÿÿÿÿ
-HWeb:BoldAndItalicTagsCheck"Replace this <i> tag by <em>.(¼§‰ûÿÿÿÿ
-YWeb:FrameWithoutTitleCheck‹"-Add a "title" attribute to this <iframe> tag.(©è·÷ûÿÿÿÿ
+HWeb:BoldAndItalicTagsCheckR"Replace this <i> tag by <em>.(¿›şïøÿÿÿÿ
+HWeb:BoldAndItalicTagsCheckm"Replace this <i> tag by <em>.(¯Ò­ûÿÿÿÿ
+IWeb:BoldAndItalicTagsCheck€"Replace this <i> tag by <em>.(¼§‰ûÿÿÿÿ
+CWeb:BoldAndItalicTagsCheckW"Replace this <i> tag by <em>.(„¾
+HWeb:BoldAndItalicTagsCheckq"Replace this <i> tag by <em>.(¿›şïøÿÿÿÿ
+H	Web:S1827Œ"-Remove this deprecated "scrolling" attribute.(ÅòÏŠÿÿÿÿÿ
+HWeb:BoldAndItalicTagsCheckH"Replace this <i> tag by <em>.(¿›şïøÿÿÿÿ
+HWeb:BoldAndItalicTagsCheckY"Replace this <i> tag by <em>.(¯Ò­ûÿÿÿÿ
+CWeb:BoldAndItalicTagsCheckB"Replace this <i> tag by <em>.(É–†
+HWeb:BoldAndItalicTagsCheckD"Replace this <i> tag by <em>.(¯Ò­ûÿÿÿÿ
+HWeb:BoldAndItalicTagsCheckM"Replace this <i> tag by <em>.(¿›şïøÿÿÿÿ
+HWeb:BoldAndItalicTagsCheck]"Replace this <i> tag by <em>.(¿›şïøÿÿÿÿ
+IWeb:AvoidCommentedOutCodeChecky"Remove this commented out code.(İğÉÏ

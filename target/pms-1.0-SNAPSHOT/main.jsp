@@ -48,11 +48,11 @@
                 <dd>
                     <a onclick="xadmin.open('切换帐号','http://www.baidu.com')">切换帐号</a></dd>
                 <dd>
-                    <a href="./login.html">退出</a></dd>
+                    <a href="./login.jsp">退出</a></dd>
             </dl>
         </li>
         <li class="layui-nav-item to-index">
-            <a href="/">前台首页</a></li>
+            <a href="./main.jsp">前台首页</a></li>
     </ul>
 </div>
 <!-- 顶部结束 -->
@@ -135,18 +135,22 @@
                 <dd data-type="all">关闭全部</dd>
             </dl>
         </div>
-        <div class="layui-tab-content">
-            <div class="layui-tab-item layui-show">
-                <iframe src='./images/loginbg.png' frameborder="0" scrolling="yes" class="x-iframe"></iframe>
+        <div class="layui-tab-content" style="height: 820px">
+            <div class="layui-tab-item layui-show" style="height: 96%">
+                <iframe src='./images/loginbg.png' frameborder="0" scrolling="no" class="x-iframe"></iframe>
             </div>
         </div>
         <div class="reg-foot">
             <div class="layui-row" style="height: 45%;">
                 <div class="layui-col-xs5">
-                    <div class="grid-demo grid-demo-bg1" style="float: left;margin-left: 62px;margin-top: 23px;font-size: 16px;"></div>
+                    <div class="grid-demo grid-demo-bg1"
+                         style="float: left;margin-left: 62px;margin-top: 23px;font-size: 16px;">
+                    </div>
                 </div>
                 <div class="layui-col-xs2">
-                    <div class="grid-demo grid-demo-bg1" style="margin-left: 62px;margin-top: 23px;font-size: 16px;">© 2020 <a href="#">XXX</a> MIT license</div>
+                    <div class="grid-demo grid-demo-bg1" style="margin-left: 62px;margin-top: 23px;font-size: 16px;">
+                        © 2020 <a href="#">XXX</a> MIT license
+                    </div>
                 </div>
                 <div class="layui-col-xs5">
                     <div class="grid-demo" style="margin-left: 62px;margin-top: 23px;font-size: 16px;"></div>
@@ -154,18 +158,19 @@
             </div>
             <div class="layui-row" style="height: 45%;">
                 <div class="layui-col-xs3">
-                    <div class="grid-demo grid-demo-bg1" style="float: left;margin-left: 62px;margin-top: 23px;font-size: 16px;"></div>
+                    <div class="grid-demo grid-demo-bg1"
+                         style="float: left;margin-left: 62px;margin-top: 23px;font-size: 16px;">
+                    </div>
                 </div>
                 <div class="layui-col-xs5">
                     <div class="grid-demo grid-demo-bg1" style="margin-left: 185px;margin-top: 5px;">
-                <span class="layui-breadcrumb" lay-separator="|" style="visibility: visible;">
-                  <a href="">关于我们</a>
-                  <a href="">联系我们</a>
-                  <a href="">用户协议</a>
-                  <a href="">隐私政策</a>
-                  <a href="">帮助中心</a>
-                </span>
-
+                        <span class="layui-breadcrumb" lay-separator="|" style="visibility: visible;">
+                          <a href="">关于我们</a>
+                          <a href="">联系我们</a>
+                          <a href="">用户协议</a>
+                          <a href="">隐私政策</a>
+                          <a href="">帮助中心</a>
+                        </span>
                     </div>
                 </div>
                 <div class="layui-col-xs3">

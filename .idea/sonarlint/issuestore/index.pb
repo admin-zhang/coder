@@ -42,3 +42,7 @@ L
 src/main/webapp/register.jsp,b\d\bde35d3876092f82f8efadc1a6675aaf6bd96946
 N
 src/main/webapp/data/demo.json,0\a\0a331f0db3f73b79be6ce4b5d900db74d2d1e634
+N
+src/main/webapp/css/footer.css,d\5\d5b8579a9db557a92c03195572fbbd21a95c372b
+O
+src/main/webapp/member-edit.jsp,6\6\66c1c9fe5ce0741a84fefcdb757c7ae8ab43e38a

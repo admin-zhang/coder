@@ -113,11 +113,6 @@
             };
         });
 
-        //监听性别操作
-        form.on('switch(sexDemo)', function(obj){
-            layer.tips(this.value + ' ' + this.name + '：'+ obj.elem.checked, obj.othis);
-        });
-
         //监听行工具事件
         table.on('tool(test)', function(obj){
             var data = obj.data;
@@ -128,7 +123,20 @@
                     layer.close(index);
                 });
             } else if(obj.event === 'edit'){
-                layer.prompt({
+                layer.open({
+                    type: 2
+                    ,title: "修改用户信息" //不显示标题栏
+                    ,closeBtn: 1
+                    ,area: ['1200px', '600px']
+                    ,shade: 0.8
+                    ,id: 'LAY_layuipro' //设定一个id，防止重复弹出
+                    ,resize: false
+                    ,scrollbar: false
+                    ,moveType: 1 //拖拽模式，0或者1
+                    ,content: 'member-edit.jsp'
+                });
+            }
+           /*     layer.prompt({
                     formType: 2
                     ,value: data.email
                 }, function(value, index){
@@ -137,7 +145,12 @@
                     });
                     layer.close(index);
                 });
-            }
+            }*/
+        });
+
+        //监听性别操作
+        form.on('switch(sexDemo)', function(obj){
+            layer.tips(this.value + ' ' + this.name + '：'+ obj.elem.checked, obj.othis);
         });
     });
 </script>
