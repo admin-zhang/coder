@@ -127,12 +127,12 @@
                     type: 2
                     ,title: "修改用户信息" //不显示标题栏
                     ,closeBtn: 1
-                    ,area: ['1200px', '600px']
+                    ,area: ['600px', '600px']
                     ,shade: 0.8
                     ,id: 'LAY_layuipro' //设定一个id，防止重复弹出
                     ,resize: false
                     ,scrollbar: false
-                    ,moveType: 1 //拖拽模式，0或者1
+                    ,moveType: 0 //拖拽模式，0或者1
                     ,content: 'member-edit.jsp'
                 });
             }

@@ -117,25 +117,30 @@
             </li>
             <li>
                 <a href="javascript:;">
-                    <i class="iconfont left-nav-li" lay-tips="会员管理">&#xe6b8;</i>
-                    <cite>下载中心</cite>
+                    <i class="iconfont left-nav-li" lay-tips="文件管理">&#xe714;</i>
+                    <cite>文件管理</cite>
                     <i class="iconfont nav_right">&#xe697;</i></a>
                 <ul class="sub-menu">
                     <li>
-                        <a onclick="xadmin.add_tab('员工列表','./employee-list.jsp',true)">
+                        <a onclick="xadmin.add_tab('文件列表','./file-list.jsp',true)">
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>部门列表</cite></a>
+                            <cite>文件列表</cite></a>
                     </li>
                     <li>
-                        <a onclick="xadmin.add_tab('会员删除','member-del.html')">
+                        <a onclick="xadmin.add_tab('文件上传','./upload.jsp',true)">
                             <i class="iconfont">&#xe6a7;</i>
-                            <cite>添加部门</cite></a>
+                            <cite>文件上传</cite></a>
+                    </li>
+                    <li>
+                        <a onclick="xadmin.add_tab('文件下载','member-del.html')">
+                            <i class="iconfont">&#xe6a7;</i>
+                            <cite>文件下载</cite></a>
                     </li>
                 </ul>
             </li>
             <li>
                 <a href="javascript:;">
-                    <i class="iconfont left-nav-li" lay-tips="会员管理">&#xe6b8;</i>
+                    <i class="iconfont left-nav-li" lay-tips="系统管理">&#xe6ae;</i>
                     <cite>系统管理</cite>
                     <i class="iconfont nav_right">&#xe697;</i></a>
                 <ul class="sub-menu">
