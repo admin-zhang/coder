@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./css/font.css">
     <link rel="stylesheet" href="./css/xadmin.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./lib/layui/css/layui.css">
     <script src="./lib/layui/layui.js" charset="utf-8"></script>
     <script type="text/javascript" src="./js/xadmin.js"></script>
     <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
@@ -117,23 +118,23 @@
             </li>
             <li>
                 <a href="javascript:;">
-                    <i class="iconfont left-nav-li" lay-tips="文件管理">&#xe714;</i>
+                    <i class="layui-icon iconfont left-nav-li" lay-tips="文件管理">&#xe621;</i>
                     <cite>文件管理</cite>
                     <i class="iconfont nav_right">&#xe697;</i></a>
                 <ul class="sub-menu">
                     <li>
                         <a onclick="xadmin.add_tab('文件列表','./file-list.jsp',true)">
-                            <i class="iconfont">&#xe6a7;</i>
+                            <i class="layui-icon iconfont layui-icon-list"></i>
                             <cite>文件列表</cite></a>
                     </li>
                     <li>
                         <a onclick="xadmin.add_tab('文件上传','./upload.jsp',true)">
-                            <i class="iconfont">&#xe6a7;</i>
+                            <i class="layui-icon iconfont">&#xe681</i>
                             <cite>文件上传</cite></a>
                     </li>
                     <li>
                         <a onclick="xadmin.add_tab('文件下载','member-del.html')">
-                            <i class="iconfont">&#xe6a7;</i>
+                            <i class="iconfont">&#xe714;</i>
                             <cite>文件下载</cite></a>
                     </li>
                 </ul>

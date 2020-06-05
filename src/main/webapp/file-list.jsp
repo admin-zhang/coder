@@ -41,10 +41,7 @@
     </div>
 </script>
 
-<script type="text/html" id="switchTpl">
-    <!-- 这里的 checked 的状态只是演示 -->
-    <input type="checkbox" name="sex" value="{{d.id}}" lay-skin="switch" lay-text="女|男" lay-filter="sexDemo" {{ d.id == 10003 ? 'checked' : '' }}>
-</script>
+
 
 <script type="text/html" id="barDemo">
     <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
@@ -72,20 +69,14 @@
             , height: 'full-80'
             ,page: true
             ,cols: [[
-                {type: 'checkbox', fixed: 'left'}
-                ,{field:'id', title:'ID', width:80, fixed: 'left', unresize: true, sort: true}
-                ,{field:'username', title:'用户名', width:120, edit: 'text'}
-                ,{field:'email', title:'邮箱', width:198, edit: 'text', templet: function(res){
-                        return '<em>'+ res.email +'</em>'
-                    }}
-                ,{field:'sex', title:'性别', width:80,  templet: '#switchTpl', unresize: true}
-                ,{field:'city', title:'城市', width:100}
-                ,{field:'sign', title:'签名', width: 472}
-                ,{field:'experience', title:'积分', width:80, sort: true}
-                ,{field:'ip', title:'IP', width:120}
-                ,{field:'logins', title:'登入次数', width:100, sort: true}
-                ,{field:'joinTime', title:'加入时间', width:120}
-                ,{ title:'操作', toolbar: '#barDemo', width:120}
+                {type: 'checkbox'}
+                ,{field:'id', title:'ID', fixed: 'left', unresize: true, sort: true,hide: true}
+                ,{field:'filename', title:'文件名',  edit: 'text'}
+                ,{field:'filesize', title:'文件大小',   templet: '#switchTpl', unresize: true}
+                ,{field:'createuser', title:'创建人'}
+                ,{field:'createtime', title:'创建时间'}
+                ,{field:'edittime', title:'修改日期'}
+                ,{ title:'操作', toolbar: '#barDemo'}
             ]]
         });
 
